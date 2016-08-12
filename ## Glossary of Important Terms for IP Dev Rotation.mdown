@@ -417,7 +417,9 @@ Programming languages article:
 
 http://spectrum.ieee.org/computing/software/top-programming-languages-trends-the-rise-of-big-data
 
-DevOps: https://devup.co/a-look-at-devops-tools-landscape-7220099c6b81#.fycn47qsf
+DevOps: 
+
+https://devup.co/a-look-at-devops-tools-landscape-7220099c6b81#.fycn47qsf
 
 Funny blog post: 
 
