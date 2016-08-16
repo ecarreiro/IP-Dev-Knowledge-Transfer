@@ -261,7 +261,6 @@
 + git log
 
 	- Journal that remembers all the changes committed so far, in the order we committed them
-	- https://github.com/try-git/try_git.git this is an empty GitHub repo but must be added as a remote repo ( to do this type: git remote add origin https://github.com/try-git/try_git.git )
 
 + git push 
 
