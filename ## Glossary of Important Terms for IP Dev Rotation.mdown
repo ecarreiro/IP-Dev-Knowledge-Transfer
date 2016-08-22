@@ -1,0 +1,449 @@
+## Glossary of Important Terms for IP Dev Rotation
+
+1. Digital Workplace: Social, mobile, cloud, big data 
+	
+	- A workplace that has become increasingly more digital
+	- All types of work are done on the computer and things will be this way for a very long time
+	- Less reliance on paper systems
+	- Social: using more social media platforms and communication through a screen more than face to face nowadays (text, email, etc.)
+	- Mobile: computers are becoming smaller and stronger as evidenced by use of mobile devices
+	- Cloud: moving from physical server power to cloud which is stationed somewhere else
+	- Big data: heaps of information about anything that can be quantified to create some business objectives
+
+2. Internet of things disruption
+
+	- Internet of things consist of 'smart' objects that are all interconnected and make communication from person to person and person to device easier than ever
+	- Communication and processing power will increase even more over time and make the workplace have the need to catch up to all of this
+	- Storage space - USBs and hardrives cheaper for more space, makes sharing of information a lot easier (can also send more info over cloud)
+
+3. Agile solutions
+
+	- Solutions that are consistently changing and being updated as the business requirements change
+
+4. Automation
+
+	- Everything is becoming automated in the sense that computers are now able to do work only humans could once do (ex. sending messages that servers are down rather than having to always email people that it is down, data cleanup)
+
+5. Systems of engagement
+
+	- Sytems of record vs engagement - a lot if IT investment has gone into transactional systems and now it is moving into customer being able to utilize your IT rather than just employees (government agencies could start using this more often, TSA when you come back through customs uses automated passport scanner now)
+	- Can do anything on your own without having to rely on someone from that company to be able to do something, must be well integrating with everything
+	- Systems are becoming more decentralized and incorporate more peer (open source) technologies that otherwise were not used previously (this is in terms of software development)
+
+6. IT leaders as strategic business partners
+
+	- Businesses are realizing that in order for all internal systems to work they need to rely on IT and follow their lead, if something bad happens to IT their functions are also disrupted
+	- On the other hand, IT leaders are also realizing that they cannot put their departments ahead of everyone else; there needs to be a balance as seen in Phoenix Project
+
+7. Security
+
+	- Privacy concerns and compliance laws are at an all time high and require that businesses be careful about everything that they do
+
+8. Development Methodology 
+
+	+ Waterfall 
+
+		- Method where application is produced and deployed during a set period of time (ex. a couple times a year)
+		- Requirements and resources are static
+
+	+ Agile
+
+		- Method where application is produced and deployed rapidly over time, change according to business requirements (ex. every couple weeks/months) 
+		- Requirements and resources are dynamic
+		- Indivduals rather then processes
+		- Focus on finished product
+		
+
+	+ DevOps 
+
+		- Method where application is produced and deployed almost instantly (ex. daily)  
+		- Requirements and resources are dynamic
+		- Most difficult to achieve due to fact that quick and efficient collaboration amongst huge enterprise teams is hard
+
+9. Application Architecture 
+
+	+ Monolithic 
+
+		- Single app in which user interface and software code are combined into a single program on a single platform (ex. GroupMe allows you to send messages)
+
+	+ N-Tier and APIs
+
+		- Multiple apps in which software codes from each app talk to each other in order to function together (ex. GroupMe calls to Facebook or to the native Phone app behind the scenes, for you to be able to talk to your specific contacts from Facebook or your phone book)
+
+	+ Microservices
+
+		- A single app that has a set of small services inside of it that each run specific code for a specific purpose and interact with each other to achieve the overall purpose of the app (ex. Forsythe Pricing Model contains small services inside of it such as a service that lets an end user know when a page has timed out and why)
+
+10. Compute Granularity
+
+	+ Physical servers 
+
+		- Physical hardware servers at the location you are at on which computer applications are run
+
+	+ Virtual servers
+
+		- A server located at someone else's location (or even your's) that is shared by multiple owners that have full privileges over that server (basically a virtual machine without a user interface)
+
+	+ Containers
+
+		- Pieces of software are wrapped in a complete filesystem that run a server without relying on anything but a virtual machine (Docker) 
+		- Take up less storage space than options mentioned above which makes running multiple containers easier and more efficient
+
+11. Data Center Infrastructure (How computers that run apps are structured)
+
+	+ Purpose-built
+
+		- Physical data centers built for a specific purpose (ex. Clients need a space to test technologies so you build a data center for that purpose)
+
+	+ Software defined
+
+		- Taking a physical object (such as a server or storage array) and writing software to run on that physical object to be able to enhance that physical object in order to get more efficient and useful functions out of them (ex. Being able to run twenty virtual machines off of one physical server because of the code you wrote)
+		- Storage, networking, management, and compute components are virtualized meaning they are not physically there or that component is enhanced enough to increaase these capabilities
+		- Companies will no longer need to rely on specialized hardware or hire consultants to install and program hardware in its specialized language
+		
+
+	+ Hybrid cloud
+
+		- Virtualized data centers
+		- Using both public (using Amazon webservices) and private (will run in internal data center, including physical control) 
+		- Managing both so that they function together easily (containers may make doing this a lot easier)
+		- Public (data that is not sensititve and can be analyzed using public platform ex. retail buying trends at 10 pm)
+		- Private (ex. sensitive credit card data that should only be seen by the company)
+		- Both elements work together to create an overall hybrid cloud
+
+12. Version Control System
+
+	- A way to control which version of source code you are currently working on and way to access previous versions
+	
+13. Continuous Integration Server
+
+	- A program that tests your code for any bugs before it goes into production
+
+14. Test Instance
+	
+	- A specific test that you run under a certain situation that may change as you add in code
+
+15. Artifact Repository
+	
+	- A place where all of your source code is saved and easily accessed for updates
+
+16. Production
+
+	- The act of running your code all the way through so that end users now see some type of observable change to whatever app they are using
+
+17. Project Management(PM) 
+
+	- The act of managing a project to obtain the business requirements
+
+		+ Jira
+
+			- Tool that helps plan out tasks by giving out tickets with a short description of the work that are placed into another category 
+			- Useful in DevOps and Agile methodologies
+			- https://www.atlassian.com/software/jira?
+
+		+ Trello
+
+			- Very similar to Jira
+			-  https://trello.com/
+
+18. Source Code Management 
+
+	- The act of putting all the code various developers work on and edit into the same place to increase efficiency and accuracy
+
+		+ GitHub
+
+			- A source code managment tool where you can push and pull all the repositories you are working on locally 
+			- Most pouplar tool that nearly all open source programmers utilize
+			- https://github.com/
+
+19. Continuous Integration
+	
+	- Continuously testing code to make sure that there are no bugs and that the app can function properly in production
+
+		+ Jenkins 
+
+			- Test environment that is rather difficult to set up but does good job in picking out bugs and allowing you to fix them before going into production
+			- https://jenkins.io/
+
+		+ Travis CI
+
+			- A little bit easier to use than Jenkins but has less overall functionality
+			- https://travis-ci.org/
+
+20. Continuous Delivery
+
+	- A way to deliver the code you have written to your end users or customers so that they can easily and efficiently use an app
+
+		+ Grunt
+
+			- Helps run Javascript 
+			- http://gruntjs.com/
+
+21. Code Review
+	
+	- Consistently peer reviewing code to fix any bugs or errors in the code
+	- Errors are often shown in red and updated code with a plus sign
+
+		+ GitHub
+			
+			- Described above
+
+22. Containerization
+
+	- A way to use virtual servers that take up less storage space than virtual or physical servers 
+
+	+ Docker
+
+		- The leader in container software 
+		- Works with tons of other tools and software
+		- https://www.docker.com/what-docker
+
+23. Automation
+	
+	- A way to automate configuration and maintenance of apps
+
+		+ Chef
+
+			- https://www.chef.io/chef/
+
+		+ Puppet
+
+			- https://puppet.com/
+
+24. Orchestration
+
+	- An automated way to combine the systems you utilize and their processess into a simpler platform
+
+		+ Kubernetes
+
+			- Run by Google, really emerging as leader in orchestration tools
+			- Takes containers, groups them to work together, and then allows them to talk to other container clusters as well
+			- http://kubernetes.io/
+
+25. Monitoring
+
+	- Being able to keep track of performance and what needs to potentially be changed
+
+		+ Logstash
+
+			- Keeps project data in a simple dashboard that also runs statistics based on parameters you enter
+			- https://www.elastic.co/products/logstash
+
+## Important GitHub Words/Commands 
+
+- Git allows people to work on documents at the same time without disrupting one another's code
+- Terminal prompt is where you submit various commands
+
+***Git Repository
+
++ git init 
+
+	- allows you to initialize an empty repository
+
++ git status 
+
+	- shows status of project and any changes that have been added
+
++ git add filename.txt
+
+	- To start tracking any added changes to your text file
+	- This adds it to staging area which is place everything goes before added to repository
+
++ git commit 
+
+	- To store saved changes run commit command with message outlining any changes (ex. git commit -m "Add cute octocat story")
+
++ git add
+
+	- Add new files of similar type using wildcards (ex. git add '*txt')
+	- Once you have added all these files run status to see what you are about to commit (ex. git commit -.'Add all the octocat txt files')
+
++ git log
+
+	- Journal that remembers all the changes committed so far, in the order we committed them
+
++ git push 
+
+	- tells Git where to put commands when you are ready
+	- The name of our remote is origin and the default local branch name is master. The -u tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do (type git push -u origin master)
+	- In order to check for changes from others who have pulled your changes, made their own commits, and pushed them type git pull origin master
+
++ git diff 
+
+	- Allows you to see any changes that were made
+
++ git reset 
+
+	- Unstages added files
+	- Files can be changed to how they were at the last commit by using the command git checkout -- <target>
+	- Copied branches are used to work on features or bugs that are then merged with the master branch when work is finished
+
++ git checkout <branch> 
+
+	- Switches between branches
+
++ git rm 
+
+	- Removes files (not only actual files on disk but will also stage removal)
+
++ git merge 
+
+	- Will merge two branches together
+	- You can use git branch -d <branch name> to delete a branch
+	
++ git pull 
+
+	- pull from GitHub to local repository
+
+## Additional tools not mentioned above that are useful
+
+1. Slack 
+
+	- Primary communication method in IP Dev rotation
+	- 20$ per user
+	- Key features include:
+
+		+ File sharing
+		+ Group and direct messaging
+		+ Live notifications
+		+ Can be part of multiple channels each with different topics
+
+## Programming languages
+	
+1. Python
+2. Java
+3. Ruby	
+4. Go
+5. C
+6. C++
+7. R
+8. Scala
+9. Javascript
+
+- Often tradeoff between user friendliness and ease of use for the computer 
+- Ex. C runs really well on the computer (compiles and easier to find bugs), but is more difficult to write
+- Langauges essentially do similar things, up to person to choose which one they prefer really
+- Many people provide open source projects to the world that help with their own work (really if you are not contributing open source stuff you are not seen as a valuable member of the programming community)
+
+## Text editors
+
+- Help you write code and keep everything separated and organized
+- Sublime, Atom are good ones to download and play around with
+- Write notes and other files in here for practice
+- Not exactly the best looking platforms but easy to use and very helpful
+
+## Rotation structure
+
+1. Daily meetings for about 2 hours or so
+	
+	- In those meetings you either learn about new technologies, watch Kevin put those ideas into practice, or start practicing yourself
+
+2. Kevin will post pretty interesting stuff in the Slack channel to both read and listen to that has either to do with what you are currently learning or an outside connection about IT in general that is interesting
+
+3. Most of your time after that will be up to you to decide what you want to work on (ex. CLI, Docker, etc.)
+
+4. Read the Phoenix Project book on your own time (Kevin will give you the link) because it is very interesting and applies to everything you learn and work on in this rotation
+
+## Addtional tips
+
+1. Ask a lot of questions - Kevin is really smart and can give you really good and in depth answers to any questions you may have
+
+2. Actually spend time doing hands on excercises to reinforce theory
+
+3. Take notes in meetings, even though they are long they are full of helpful informatio
+
+4. Try to have the cleanest data sets possible before handing the work off because you will waste other people's time and they will not like you for that
+
+5. Supply feedback to Kevin (this is his first time heading a rotation so he is always willing to hear from you)
+
+## Buzzwords in IT today that have relevance
+
+1. Serverless
+2. Cloud	
+3. Big Data
+
+## Links to articles / additional resources
+
+Intro material:
+
+https://engineering.canva.com/2015/08/25/how-we-get-things-done/
+
+http://classicprogrammerpaintings.com/
+
+GitHub: 
+
+https://github.com
+
+Slack: 
+
+https://slack.com/downloads
+
+Agile project management: 
+
+http://www.agilemanifesto.org/
+
+Git Tutorial: 
+
+https://www.codeschool.com/courses/try-git
+
+Markdown: 
+
+https://guides.github.com/features/mastering-markdown/
+
+Cloudcast: 
+
+http://www.thecloudcast.net/search?updated-max=2016-04-14T10:33:00-04:00&max-results=7&start=7&by-date=false
+
+http://www.thecloudcast.net/2016/07/the-cloudcast-261-docker-image.html
+
+Command line tutorial: 
+
+https://www.codecademy.com/en/courses/learn-the-command-line
+
+http://cli.learncodethehardway.org/book/
+
+Kevin's WebEx meeting room:
+
+ forsythe.webex.com/meet/kkeuning
+
+Kubernetes info: 
+
+https://www.box.com/blog/kubernetes-box-microservices-maximum-velocity/
+
+https://youtu.be/4ht22ReBjno
+
+Programming languages article: 
+
+http://spectrum.ieee.org/computing/software/top-programming-languages-trends-the-rise-of-big-data
+
+DevOps: https://devup.co/a-look-at-devops-tools-landscape-7220099c6b81#.fycn47qsf
+
+Funny blog post: 
+
+https://zwischenzugs.wordpress.com/2016/04/12/hitler-uses-docker-annotated/
+
+https://twitter.com/jasonyeojs/status/760456348211433472
+
+https://xkcd.com/1205/
+
+Jira info: 
+
+https://forsythe.box.com/s/44u5ufgee95u02zruss7ga059dj1wjbx
+
+NPM:
+
+https://www.npmjs.com
+
+CIA Sabotage Field manual:
+
+http://www.openculture.com/2015/12/simple-sabotage-field-manual.html
+
+Data analytics CLI vs Hadoop:
+
+http://aadrake.com/command-line-tools-can-be-235x-faster-than-your-hadoop-cluster.html
+
+## Why is knowing all of this information important?
+
+	+ Allows you to know what people in the field are talking about 
+	+ Makes it easier for you to talk to clients and feel confident in that what you are telling them is indeed correct
+	+ Makes understanding how overall processes function and how they fit into the scope of the business easier 
