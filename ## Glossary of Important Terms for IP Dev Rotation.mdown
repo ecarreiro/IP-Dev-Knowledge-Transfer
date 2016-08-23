@@ -374,6 +374,10 @@ GitHub:
 
 https://github.com
 
+Postman:
+
+https://www.getpostman.com/
+
 Slack: 
 
 https://slack.com/downloads
